@@ -10,8 +10,8 @@ public class Interact : MonoBehaviour
     private BoxCollider bc;
     private SpriteRenderer sp;
     private GameObject indicatorCanInteract;//a signal for the player to know with what can interact
-    private Animator anim
-    private bool canInteract;;
+    private Animator anim; //animation of the switch moving and the door opening
+    private bool canInteract;
     public bool isSwitch;
     public bool ActiveSwitch;
     public UnityEvent switchEvent;
